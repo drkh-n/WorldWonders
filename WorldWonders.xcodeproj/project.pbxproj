@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069F20D7BBA68C267BA9EDD6 /* Pods_WorldWondersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9F8C2C18100103025299E3 /* Pods_WorldWondersTests.framework */; };
+		565A0538C1FE81906BE572E0 /* Pods_WorldWonders_WorldWondersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A03B3122C67CF5BF76A605 /* Pods_WorldWonders_WorldWondersUITests.framework */; };
+		809DC7FB6FE8196E182EB7C1 /* Pods_WorldWonders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A3BAE657F8493CD22F7140 /* Pods_WorldWonders.framework */; };
+		FA600C6826120A8000BAE883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600C6726120A8000BAE883 /* AppDelegate.swift */; };
+		FA600C6A26120A8000BAE883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600C6926120A8000BAE883 /* SceneDelegate.swift */; };
+		FA600C6C26120A8000BAE883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600C6B26120A8000BAE883 /* ViewController.swift */; };
+		FA600C6F26120A8000BAE883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA600C6D26120A8000BAE883 /* Main.storyboard */; };
+		FA600C7126120A8100BAE883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA600C7026120A8100BAE883 /* Assets.xcassets */; };
+		FA600C7426120A8100BAE883 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA600C7226120A8100BAE883 /* LaunchScreen.storyboard */; };
+		FA600C7F26120A8100BAE883 /* WorldWondersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600C7E26120A8100BAE883 /* WorldWondersTests.swift */; };
+		FA600C8A26120A8100BAE883 /* WorldWondersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600C8926120A8100BAE883 /* WorldWondersUITests.swift */; };
+		FA600CA526120F0100BAE883 /* WondersListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600CA426120F0100BAE883 /* WondersListTableViewController.swift */; };
+		FA600CAA2612103500BAE883 /* WonderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600CA92612103500BAE883 /* WonderTableViewCell.swift */; };
+		FA600CAF261211AB00BAE883 /* Wonder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA600CAE261211AB00BAE883 /* Wonder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA600C7B26120A8100BAE883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA600C5C26120A8000BAE883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA600C6326120A8000BAE883;
+			remoteInfo = WorldWonders;
+		};
+		FA600C8626120A8100BAE883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA600C5C26120A8000BAE883 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA600C6326120A8000BAE883;
+			remoteInfo = WorldWonders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045409EFBE4CCC2DAF4B63D3 /* Pods-WorldWondersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWondersTests.debug.xcconfig"; path = "Target Support Files/Pods-WorldWondersTests/Pods-WorldWondersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		070AB3609C81C021CE7CB0F5 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders-WorldWondersUITests.release.xcconfig"; path = "Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14A03B3122C67CF5BF76A605 /* Pods_WorldWonders_WorldWondersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWonders_WorldWondersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A3BAE657F8493CD22F7140 /* Pods_WorldWonders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWonders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50504BA2E92F46424C763F42 /* Pods-WorldWonders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders.release.xcconfig"; path = "Target Support Files/Pods-WorldWonders/Pods-WorldWonders.release.xcconfig"; sourceTree = "<group>"; };
+		6D398E1C635DDD12D6CEF5EA /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders-WorldWondersUITests.debug.xcconfig"; path = "Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB9F8C2C18100103025299E3 /* Pods_WorldWondersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldWondersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB32A516BD88D04C28639AAB /* Pods-WorldWonders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWonders.debug.xcconfig"; path = "Target Support Files/Pods-WorldWonders/Pods-WorldWonders.debug.xcconfig"; sourceTree = "<group>"; };
+		F133D1F5FF8A3AA02A3E1176 /* Pods-WorldWondersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldWondersTests.release.xcconfig"; path = "Target Support Files/Pods-WorldWondersTests/Pods-WorldWondersTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA600C6426120A8000BAE883 /* WorldWonders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWonders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA600C6726120A8000BAE883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA600C6926120A8000BAE883 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA600C6B26120A8000BAE883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA600C6E26120A8000BAE883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA600C7026120A8100BAE883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA600C7326120A8100BAE883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA600C7526120A8100BAE883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA600C7A26120A8100BAE883 /* WorldWondersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWondersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA600C7E26120A8100BAE883 /* WorldWondersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWondersTests.swift; sourceTree = "<group>"; };
+		FA600C8026120A8100BAE883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA600C8526120A8100BAE883 /* WorldWondersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWondersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA600C8926120A8100BAE883 /* WorldWondersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWondersUITests.swift; sourceTree = "<group>"; };
+		FA600C8B26120A8100BAE883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA600CA426120F0100BAE883 /* WondersListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WondersListTableViewController.swift; sourceTree = "<group>"; };
+		FA600CA92612103500BAE883 /* WonderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderTableViewCell.swift; sourceTree = "<group>"; };
+		FA600CAE261211AB00BAE883 /* Wonder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wonder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA600C6126120A8000BAE883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809DC7FB6FE8196E182EB7C1 /* Pods_WorldWonders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C7726120A8100BAE883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069F20D7BBA68C267BA9EDD6 /* Pods_WorldWondersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C8226120A8100BAE883 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565A0538C1FE81906BE572E0 /* Pods_WorldWonders_WorldWondersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB9153D3D182D1CAE65810F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB32A516BD88D04C28639AAB /* Pods-WorldWonders.debug.xcconfig */,
+				50504BA2E92F46424C763F42 /* Pods-WorldWonders.release.xcconfig */,
+				6D398E1C635DDD12D6CEF5EA /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */,
+				070AB3609C81C021CE7CB0F5 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */,
+				045409EFBE4CCC2DAF4B63D3 /* Pods-WorldWondersTests.debug.xcconfig */,
+				F133D1F5FF8A3AA02A3E1176 /* Pods-WorldWondersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7B6DC849FB2B1104B2AE4A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A3BAE657F8493CD22F7140 /* Pods_WorldWonders.framework */,
+				14A03B3122C67CF5BF76A605 /* Pods_WorldWonders_WorldWondersUITests.framework */,
+				BB9F8C2C18100103025299E3 /* Pods_WorldWondersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA600C5B26120A8000BAE883 = {
+			isa = PBXGroup;
+			children = (
+				FA600C6626120A8000BAE883 /* WorldWonders */,
+				FA600C7D26120A8100BAE883 /* WorldWondersTests */,
+				FA600C8826120A8100BAE883 /* WorldWondersUITests */,
+				FA600C6526120A8000BAE883 /* Products */,
+				3AB9153D3D182D1CAE65810F /* Pods */,
+				F7B6DC849FB2B1104B2AE4A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA600C6526120A8000BAE883 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA600C6426120A8000BAE883 /* WorldWonders.app */,
+				FA600C7A26120A8100BAE883 /* WorldWondersTests.xctest */,
+				FA600C8526120A8100BAE883 /* WorldWondersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA600C6626120A8000BAE883 /* WorldWonders */ = {
+			isa = PBXGroup;
+			children = (
+				FA600C6726120A8000BAE883 /* AppDelegate.swift */,
+				FA600C6926120A8000BAE883 /* SceneDelegate.swift */,
+				FA600C6B26120A8000BAE883 /* ViewController.swift */,
+				FA600CA426120F0100BAE883 /* WondersListTableViewController.swift */,
+				FA600CAE261211AB00BAE883 /* Wonder.swift */,
+				FA600CA92612103500BAE883 /* WonderTableViewCell.swift */,
+				FA600C6D26120A8000BAE883 /* Main.storyboard */,
+				FA600C7026120A8100BAE883 /* Assets.xcassets */,
+				FA600C7226120A8100BAE883 /* LaunchScreen.storyboard */,
+				FA600C7526120A8100BAE883 /* Info.plist */,
+			);
+			path = WorldWonders;
+			sourceTree = "<group>";
+		};
+		FA600C7D26120A8100BAE883 /* WorldWondersTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA600C7E26120A8100BAE883 /* WorldWondersTests.swift */,
+				FA600C8026120A8100BAE883 /* Info.plist */,
+			);
+			path = WorldWondersTests;
+			sourceTree = "<group>";
+		};
+		FA600C8826120A8100BAE883 /* WorldWondersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA600C8926120A8100BAE883 /* WorldWondersUITests.swift */,
+				FA600C8B26120A8100BAE883 /* Info.plist */,
+			);
+			path = WorldWondersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA600C6326120A8000BAE883 /* WorldWonders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA600C8E26120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWonders" */;
+			buildPhases = (
+				6CECF15FC6F124994F154DB7 /* [CP] Check Pods Manifest.lock */,
+				FA600C6026120A8000BAE883 /* Sources */,
+				FA600C6126120A8000BAE883 /* Frameworks */,
+				FA600C6226120A8000BAE883 /* Resources */,
+				AE237CD2E92C69194E35DF0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldWonders;
+			productName = WorldWonders;
+			productReference = FA600C6426120A8000BAE883 /* WorldWonders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA600C7926120A8100BAE883 /* WorldWondersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA600C9126120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWondersTests" */;
+			buildPhases = (
+				D088DC360B46E6F24872F1D0 /* [CP] Check Pods Manifest.lock */,
+				FA600C7626120A8100BAE883 /* Sources */,
+				FA600C7726120A8100BAE883 /* Frameworks */,
+				FA600C7826120A8100BAE883 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA600C7C26120A8100BAE883 /* PBXTargetDependency */,
+			);
+			name = WorldWondersTests;
+			productName = WorldWondersTests;
+			productReference = FA600C7A26120A8100BAE883 /* WorldWondersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA600C8426120A8100BAE883 /* WorldWondersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA600C9426120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWondersUITests" */;
+			buildPhases = (
+				F8922F64F152E3A9E6FDB804 /* [CP] Check Pods Manifest.lock */,
+				FA600C8126120A8100BAE883 /* Sources */,
+				FA600C8226120A8100BAE883 /* Frameworks */,
+				FA600C8326120A8100BAE883 /* Resources */,
+				B9F771E3621CAE712B5D25EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA600C8726120A8100BAE883 /* PBXTargetDependency */,
+			);
+			name = WorldWondersUITests;
+			productName = WorldWondersUITests;
+			productReference = FA600C8526120A8100BAE883 /* WorldWondersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA600C5C26120A8000BAE883 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FA600C6326120A8000BAE883 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FA600C7926120A8100BAE883 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA600C6326120A8000BAE883;
+					};
+					FA600C8426120A8100BAE883 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FA600C6326120A8000BAE883;
+					};
+				};
+			};
+			buildConfigurationList = FA600C5F26120A8000BAE883 /* Build configuration list for PBXProject "WorldWonders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA600C5B26120A8000BAE883;
+			productRefGroup = FA600C6526120A8000BAE883 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA600C6326120A8000BAE883 /* WorldWonders */,
+				FA600C7926120A8100BAE883 /* WorldWondersTests */,
+				FA600C8426120A8100BAE883 /* WorldWondersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA600C6226120A8000BAE883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA600C7426120A8100BAE883 /* LaunchScreen.storyboard in Resources */,
+				FA600C7126120A8100BAE883 /* Assets.xcassets in Resources */,
+				FA600C6F26120A8000BAE883 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C7826120A8100BAE883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C8326120A8100BAE883 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CECF15FC6F124994F154DB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWonders-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE237CD2E92C69194E35DF0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldWonders/Pods-WorldWonders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F771E3621CAE712B5D25EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldWonders-WorldWondersUITests/Pods-WorldWonders-WorldWondersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D088DC360B46E6F24872F1D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWondersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8922F64F152E3A9E6FDB804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldWonders-WorldWondersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA600C6026120A8000BAE883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA600CA526120F0100BAE883 /* WondersListTableViewController.swift in Sources */,
+				FA600C6C26120A8000BAE883 /* ViewController.swift in Sources */,
+				FA600C6826120A8000BAE883 /* AppDelegate.swift in Sources */,
+				FA600CAA2612103500BAE883 /* WonderTableViewCell.swift in Sources */,
+				FA600CAF261211AB00BAE883 /* Wonder.swift in Sources */,
+				FA600C6A26120A8000BAE883 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C7626120A8100BAE883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA600C7F26120A8100BAE883 /* WorldWondersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA600C8126120A8100BAE883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA600C8A26120A8100BAE883 /* WorldWondersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA600C7C26120A8100BAE883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA600C6326120A8000BAE883 /* WorldWonders */;
+			targetProxy = FA600C7B26120A8100BAE883 /* PBXContainerItemProxy */;
+		};
+		FA600C8726120A8100BAE883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA600C6326120A8000BAE883 /* WorldWonders */;
+			targetProxy = FA600C8626120A8100BAE883 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA600C6D26120A8000BAE883 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA600C6E26120A8000BAE883 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA600C7226120A8100BAE883 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA600C7326120A8100BAE883 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA600C8C26120A8100BAE883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA600C8D26120A8100BAE883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA600C8F26120A8100BAE883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB32A516BD88D04C28639AAB /* Pods-WorldWonders.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWonders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA600C9026120A8100BAE883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50504BA2E92F46424C763F42 /* Pods-WorldWonders.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWonders/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWonders";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA600C9226120A8100BAE883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045409EFBE4CCC2DAF4B63D3 /* Pods-WorldWondersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWondersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWonders.app/WorldWonders";
+			};
+			name = Debug;
+		};
+		FA600C9326120A8100BAE883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F133D1F5FF8A3AA02A3E1176 /* Pods-WorldWondersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWondersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWondersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldWonders.app/WorldWonders";
+			};
+			name = Release;
+		};
+		FA600C9526120A8100BAE883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D398E1C635DDD12D6CEF5EA /* Pods-WorldWonders-WorldWondersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWondersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldWonders;
+			};
+			name = Debug;
+		};
+		FA600C9626120A8100BAE883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070AB3609C81C021CE7CB0F5 /* Pods-WorldWonders-WorldWondersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCMNC3J387;
+				INFOPLIST_FILE = WorldWondersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nu.drkh-n.WorldWondersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldWonders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA600C5F26120A8000BAE883 /* Build configuration list for PBXProject "WorldWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA600C8C26120A8100BAE883 /* Debug */,
+				FA600C8D26120A8100BAE883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA600C8E26120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWonders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA600C8F26120A8100BAE883 /* Debug */,
+				FA600C9026120A8100BAE883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA600C9126120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWondersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA600C9226120A8100BAE883 /* Debug */,
+				FA600C9326120A8100BAE883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA600C9426120A8100BAE883 /* Build configuration list for PBXNativeTarget "WorldWondersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA600C9526120A8100BAE883 /* Debug */,
+				FA600C9626120A8100BAE883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA600C5C26120A8000BAE883 /* Project object */;
+}
