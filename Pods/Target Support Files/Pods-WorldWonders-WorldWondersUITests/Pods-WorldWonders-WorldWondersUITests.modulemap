@@ -1,0 +1,6 @@
+framework module Pods_WorldWonders_WorldWondersUITests {
+  umbrella header "Pods-WorldWonders-WorldWondersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
